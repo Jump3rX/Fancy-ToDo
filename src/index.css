@@ -1,0 +1,87 @@
+@import url("https://fonts.googleapis.com/css2?family=Parkinsans:wght@300..800&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+
+body {
+  font-family: "Parkinsans", sans-serif;
+  background-color: rgb(79, 78, 78);
+}
+.to-do-list {
+  font-family: Arial, Helvetica, sans-serif;
+  text-align: center;
+  margin-top: 100px;
+}
+h1 {
+  font-size: 4rem;
+  font-family: "Parkinsans", sans-serif;
+}
+button {
+  font-family: "Parkinsans", sans-serif;
+  font-size: 1.7rem;
+  font-weight: bold;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.5 ease;
+}
+
+.add-button {
+  font-family: "Parkinsans", sans-serif;
+  background-color: rgb(33, 235, 33);
+}
+
+.add-button:hover {
+  background-color: rgb(28, 183, 28);
+}
+.delete-button {
+  font-family: "Parkinsans", sans-serif;
+  background-color: rgb(255, 57, 50);
+}
+
+.delete-button:hover {
+  background-color: rgb(206, 33, 33);
+}
+.move-button {
+  font-family: "Parkinsans", sans-serif;
+  background-color: rgb(50, 176, 255);
+}
+
+.move-button:hover {
+  background-color: rgb(25, 97, 156);
+}
+
+input[type="text"] {
+  font-family: "Parkinsans", sans-serif;
+  font-size: 1.6rem;
+  padding: 10px;
+  border: 2px solid rgb(124, 124, 124);
+  border-radius: 5px;
+  color: hsla(0, 0%, 0%, 0.5);
+}
+
+ol {
+  font-family: "Parkinsans", sans-serif;
+  padding: 0;
+}
+
+li {
+  font-family: "Parkinsans", sans-serif;
+  font-size: 2rem;
+  font-weight: bold;
+  padding: 15px;
+  background-color: white;
+  margin-bottom: 10px;
+  border: 3px solid rgb(137, 137, 137);
+  border-radius: 5px;
+  display: flex;
+  align-items: center;
+}
+.text {
+  font-family: "Parkinsans", sans-serif;
+  flex: 1;
+}
+.delete-button,
+.move-button {
+  padding: 8px 12px;
+  font-size: 1.4rem;
+  margin-left: 10px;
+}
